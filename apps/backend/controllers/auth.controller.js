@@ -2,7 +2,7 @@ const db = require('../database/db');
 const {
   jwt: { generateToken, verifyToken },
   hash: { hashPassword, verifyPassword },
-} = require('arc-encrypt');
+} = require('@centrx/encrypt');
 
 const login = async (req, res, next) => {
   try {

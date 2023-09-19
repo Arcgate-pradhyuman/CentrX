@@ -2,7 +2,7 @@ const { default: mongoose } = require('mongoose');
 const db = require('../database/db');
 const {
   hash: { hashPassword, verifyPassword },
-} = require('arc-encrypt');
+} = require('@centrx/encrypt');
 
 const createUser = async (req, res, next) => {
   try {

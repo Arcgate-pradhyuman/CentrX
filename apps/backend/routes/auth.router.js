@@ -13,7 +13,7 @@ module.exports = router;
 //         verifyToken
 //     },
 
-// } = require('arc-encrypt');
+// } = require('@centrx/encrypt');
 
 // const router = express.Router();
 

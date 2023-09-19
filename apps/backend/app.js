@@ -3,7 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-const bodyParser = require('body-parser');
+// const bodyParser = require('body-parser');
 const createApolloServer = require('./graphql/service/graphql.service');
 const { expressMiddleware } = require('@apollo/server/express4');
 
@@ -28,7 +28,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(bodyParser.json());
+// app.use(bodyParser.json());
 
 // Use the Swagger UI
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));

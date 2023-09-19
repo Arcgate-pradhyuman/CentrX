@@ -1,6 +1,6 @@
 const {
   jwt: { generateToken, verifyToken },
-} = require('arc-encrypt');
+} = require('@centrx/encrypt');
 const db = require('../database/db');
 const mongoose = require('mongoose');
 

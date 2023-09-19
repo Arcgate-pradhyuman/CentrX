@@ -333,6 +333,14 @@
    */
   "projects": [
     {
+      "packageName": "backend",
+      "projectFolder": "apps/backend"
+    },
+    {
+      "packageName": "frontend",
+      "projectFolder": "apps/frontend"
+    },
+    {
       "packageName": "@centrx/encrypt",
       "projectFolder": "libs/encrypt"
     },

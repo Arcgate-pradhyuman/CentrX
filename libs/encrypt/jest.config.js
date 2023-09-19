@@ -1,7 +1,7 @@
 module.exports = {
-  displayName: 'arc-encrypt',
+  displayName: '@centrx/encrypt',
   testEnvironment: 'node',
   rootDir: '../..',
-  testMatch: ['<rootDir>/packages/arc-encrypt/**/*.test.js'],
+  testMatch: ['<rootDir>/libs/encrypt/**/*.test.js'],
   setupFiles: ['<rootDir>/jestSetup.js'],
 };
