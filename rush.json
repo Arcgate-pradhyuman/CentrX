@@ -333,14 +333,6 @@
    */
   "projects": [
     {
-      "packageName": "backend",
-      "projectFolder": "apps/backend"
-    },
-    {
-      "packageName": "frontend",
-      "projectFolder": "apps/frontend"
-    },
-    {
       "packageName": "@centrx/encrypt",
       "projectFolder": "libs/encrypt"
     },
@@ -355,6 +347,14 @@
     {
       "packageName": "@centrx/utils",
       "projectFolder": "libs/utils"
+    },
+    {
+      "packageName": "backend",
+      "projectFolder": "apps/backend"
+    },
+    {
+      "packageName": "frontend",
+      "projectFolder": "apps/frontend"
     }
     // {
     //   /**
